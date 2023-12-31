@@ -1,0 +1,443 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar .navbar-toggler:focus{
+    box-shadow: none  ;
+  
+  }
+  .fa-bars , .fa-xmark{
+    font-size: 30px;
+  }
+
+.Hero{
+    background:url("./assets/blue_bg.png") no-repeat center center / cover;
+}
+
+
+
+.Hero  .Mybtn{
+    border: none;
+    padding: 8px 30px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50px;
+}
+
+.Hero ul{
+    display: flex;
+    align-items: center;
+    }
+    
+    .Hero ul li{
+    list-style-type: none ;
+    }
+    
+    .Hero ul li a{
+    margin-right: 20px;
+    font-size: 17px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    }
+    
+    .Hero ul li a:hover{
+ 
+    text-decoration: underline;
+    color: purple;
+    }
+
+    .Hero ul .link{
+        position: relative;
+    }
+    
+    .Hero ul .link::after{
+    content: '';
+    position: absolute;
+    background-color: purple;
+    width: 30px;
+    height: 3px;
+    bottom: -1px;
+    left: 10px;
+    /* transform: translateX(50%); */
+    
+    }
+
+
+    .Hero .content .content-word  h3{
+        font-size: 58px;
+        color: darkgray;
+        font-weight: bold;
+        margin-bottom: 20px;
+        }
+        
+        
+    .Hero .content span{
+        color: purple;
+    }
+        .Hero .content p{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #AAAAAA;
+        }
+        
+    .Hero  .content{
+   /* border: 2px solid red; */
+   display: flex;
+   align-items: center;
+    }
+    .Hero .content-word .color{
+        color: purple;
+    padding: 0 2px;
+    }
+    
+    .MyHeroSec{
+        /* border: 2px solid black; */
+       padding :50px  0;
+    }
+
+
+
+    .image-container{
+        /* border: 2px solid blue; */
+        position: relative;
+
+    }
+
+    .mainImage{
+        /* border: 5px solid red; */
+       
+    }
+
+    .img{
+        position: absolute;
+      right: 50%;
+      transform: translateX(50%);
+      width: 250px;
+    }
+    .cloud{
+        position: absolute;
+        /* border: 2px solid red; */
+        right: 50%;
+        bottom: 20px;
+        transform: translateX(50%);
+        overflow: hidden;
+        width: 80%;
+    }
+
+    .MyHeroSec{
+        position: relative;
+        /* border: 10px solid  brown ; */
+    }
+  .MyHeroSec .wave{
+ 
+        position: absolute;
+        width: 100%;
+        bottom: -40px;
+    
+        
+    }
+    
+
+
+.Page{
+    padding: 80px 0;
+    /* border: 2px solid  #AAAAAA; */
+    position: relative;
+}
+
+.Page  .photo{
+    position: absolute;
+    left: 250px;
+    top: 50px;
+
+    }
+    
+.col1{
+    /* border: 2px solid red; */
+    text-align: center;
+    height: 100%;
+}
+
+.col1 img{
+    width: 250px;
+}
+
+.specialCol{
+   
+    transform: translateY(150px);
+    margin-left: 30px;
+}
+.Page .PartOne{
+    /* border: 2px solid goldenrod; */
+
+}
+
+ .Page .PartTwo{
+    display: flex;
+justify-content: space-between;
+    /* border: 2px solid blueviolet; */
+  margin-top: 200px;
+}
+
+
+
+
+ .col2{
+    position: relative;
+padding: 20px;
+/* border: 2px solid red; */
+
+}
+
+ .col2 .col2-content{
+
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50% , -50%);
+   color: #fff;
+   margin-top: 10px;
+}
+
+.col2 .col2-content h1{
+font-size: 20px;
+}
+ .col2 .col2-content h2{
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+
+ .col2 img{
+width: 100%;
+
+
+}
+
+
+ .page3 .image
+{
+width: 100%;
+}
+
+.image img{
+    width: 100%;
+}
+.page3 .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.image-content{
+  text-align: center;
+
+   }
+
+   .image-content h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+   }
+
+   .image-content p{
+    font-weight: 400;
+   }
+
+
+   /*  start footer */
+
+   footer{
+    background: url("./assets/Untitled.png") no-repeat center center /cover;
+
+}
+
+
+footer .Myimages .people{
+
+width: 100%;
+
+}
+
+
+.footer-content{
+
+display: flex;
+align-items: flex-end;
+justify-content: center;
+text-align: center;
+}
+
+.footer-content .btns{
+    display: flex;
+    align-items: center;
+
+}
+.footer-content .btn img{
+
+    width: 20px;
+  margin-right: 10px;
+
+}
+
+.footer-content .btn  p{
+    font-weight: 300;
+}
+.footer-content .btn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.footer-content .iconss {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-content .iconss i{
+margin-right: 20px;
+font-size: 30px;
+color:  darkviolet;
+
+}
+
+.lists ul{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+text-align: center;
+    }
+    
+    .lists ul li{
+    list-style-type: none ;
+    }
+    
+    .lists ul li a{
+        padding-right: 20px;
+    font-size: 17px;
+    text-decoration: none;
+color: darkviolet;
+    font-weight: 600;
+    margin-top: 10px;
+    }
+    
+
+
+@media only screen and (max-width : 768px){
+    .img{
+        width: 170px;
+    }
+    
+    }
+    
+
+    @media only screen and (max-width : 910px){
+    footer{
+        background-position: 80% 20%;
+    }
+    }
+
+    
+    @media only screen and (max-width : 390px){
+    .img{
+        width: 130px;
+    }
+    
+.footer-content .iconss i{
+ color: #fff ;   
+}
+
+.footer-content ul li  a {
+color: #fff;
+    }
+    
+}
+
+
+    @media only screen and ((max-width : 1200px ) and (min-width :992px)){
+    
+        .cloud{
+            bottom: -50px;
+        }
+       
+
+
+}
+    
+    @media only screen and ((max-width : 992px ))
+    {
+        .MyHeroSec .wave{
+         
+            bottom: 90px;
+        }
+        .MyHeroSec .content{
+            margin-bottom: 30px;
+        }
+
+        .specialCol{
+    
+            margin-left: 0px ;  
+            transform: translateY(30px); 
+               }
+               
+           .Page    .PartTwo{
+                margin-top: 50px ;
+               }
+               .discountt{
+                margin-top: 30px;
+               }
+
+
+ .page3 .image{
+    margin-bottom: 30px;
+ }
+
+ .collapse{
+    position: relative;
+    padding: 40px 0;
+}
+
+.Hero  .Mybtn{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-60%);
+}
+
+
+
+    }
+    
+
+
+    @media only screen and ((max-width : 992px ) and (min-width :500px)){
+    .cloud{
+        bottom: 80px;
+    }
+    
+
+
+    
+    }
+
+
+
+    @media only screen and ((max-width : 1286px )){
+        .Page  .photo{
+            display: none;
+        }
+        }
